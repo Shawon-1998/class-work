@@ -4,6 +4,7 @@ import Banner from '../src/Components/Banner'
 import CardSec from '../src/Components/CardSec'
 import Passionate from './Components/Passionate'
 import Service from './Components/Service'
+import RecentWork from './Components/RecentWork'
 
 function App() {
  
@@ -15,6 +16,7 @@ function App() {
      <CardSec/>
      <Passionate/>
      <Service/>
+     <RecentWork />
     </>
   )
 }

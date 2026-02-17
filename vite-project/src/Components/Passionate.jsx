@@ -1,5 +1,5 @@
 import React from 'react'
-import imgSrc from '../assets/images.png'
+import imgSrc from '../assets/imgSrc.png'
 import Container from './Container'
 import Button from './Button'
 
