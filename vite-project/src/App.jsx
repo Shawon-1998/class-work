@@ -5,6 +5,7 @@ import CardSec from '../src/Components/CardSec'
 import Passionate from './Components/Passionate'
 import Service from './Components/Service'
 import RecentWork from './Components/RecentWork'
+import Achievement from './Components/Achievement'
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
      <Passionate/>
      <Service/>
      <RecentWork />
+     <Achievement />
     </>
   )
 }
