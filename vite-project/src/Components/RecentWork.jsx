@@ -1,13 +1,14 @@
 
 import React from 'react'
 import Container from './Container'
-import link1 from '../assets/link1.png'
-import link2 from '../assets/link2.png'
-import link3 from '../assets/link3.png'
+import recent1 from '../assets/recent1.png'
+import recent2 from '../assets/recent2.png'
+import recent3 from '../assets/recent3.png'
 import barricades from '../assets/barricade.png'
 import CardWork from './CardWork'
 const RecentWork = () => {
     return (
+
         <>
           <div>
             <Container>
@@ -17,17 +18,17 @@ const RecentWork = () => {
 
                 <div className='flex gap-7.5 mt-15 mb-[181.89px]'>
                     <CardWork 
-                    imgSrc={link1}
+                    imgSrc={recent1}
                      title="Deloitte"
                      description='Project was about precision and information...'
                     />
                     <CardWork 
-                    imgSrc={link2}
+                    imgSrc={recent2}
                      title="New Age"
                      description='Project was about precision and information...'
                     />
                     <CardWork 
-                    imgSrc={link3}
+                    imgSrc={recent3}
                      title="Sebastian"
                      description='Project was about precision and information...'
                     />
