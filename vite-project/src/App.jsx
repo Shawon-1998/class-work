@@ -6,6 +6,9 @@ import Passionate from './Components/Passionate'
 import Service from './Components/Service'
 import RecentWork from './Components/RecentWork'
 import Achievement from './Components/Achievement'
+import BlogSec from './Components/BlogSec'
+import Footer from './Components/Footer'
+
 
 function App() {
  
@@ -19,6 +22,8 @@ function App() {
      <Service/>
      <RecentWork />
      <Achievement />
+     <BlogSec />
+     <Footer />
     </>
   )
 }
