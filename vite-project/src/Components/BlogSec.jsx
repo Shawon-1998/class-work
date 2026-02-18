@@ -9,7 +9,7 @@ const BlogSec = () => {
     <>
         <Container>
                 <h4 className='text-center'>Behind the Pixels</h4>
-                <h1 className='text-[47px] text-white text-center font-semibold mt-6.5 mb-14.75'>Read My Recent Blog</h1>
+                <h1 className='text-[47px] uppercase text-white text-center font-semibold mt-6.5 mb-14.75'>Read My Recent Blog</h1>
                 <div className='flex gap-6 mb-30'>
                     <BLogCard
                         title="Business . Nov 01, 2025"

@@ -12,7 +12,7 @@ const Passionate = () => {
             <img src={imgSrc} alt="" />
             <div>
                 <p className='text-secondary'>Behind the Pixels</p>
-                <h2 className='text-[45px] w-141.75 mt-6.5 mb-7.5 font-semibold text-white'>Passionate On Digital
+                <h2 className='text-[45px] uppercase w-141.75 mt-6.5 mb-7.5 font-semibold text-white'>Passionate On Digital
                     Marketer Focused on
                     Driving Results.</h2>
                 <p className='text-white w-120.25'>This encompasses a variety of strategies, including search

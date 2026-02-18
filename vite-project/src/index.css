@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -23,6 +23,7 @@
 
 body{
   background-color:#140C1C;
+  font-family: "Sora", sans-serif;
 }
 section h1{
   font-size: 203px;

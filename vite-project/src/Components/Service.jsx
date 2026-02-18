@@ -14,7 +14,7 @@ const Service = () => {
       <Container>
       <section className='my-30'>
             <h4 className='text-white text-center'>my services</h4>
-        <h2 className='text-[45px] mt-7 mb-15 text-center text-white'>Here's how I can help!</h2>
+        <h2 className='text-[45px] uppercase mt-7 mb-15 text-center text-white'>Here's how I can help!</h2>
 
         <div className='flex gap-7.5'>
             <ServiceCard

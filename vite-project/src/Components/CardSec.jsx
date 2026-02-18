@@ -37,7 +37,7 @@ const CardSec = () => {
                     <div className='flex justify-between'>
                         <div >
                             <p className='text-secondary'>My Recent Work</p>
-                            <h2 className='text-[45px] pt- text-white w-127.25 font-semibold'>MY Mastering Video
+                            <h2 className='text-[45px] uppercase text-white w-127.25 font-semibold'>MY Mastering Video
                                 Editing Skills</h2>
                         </div>
                         <div className='self-end'>

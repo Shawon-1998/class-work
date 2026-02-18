@@ -11,7 +11,7 @@ const Achievement = () => {
       <Container>
         <div className='my-30'>
           <h4 className='text-center'>Behind the Pixels</h4>
-          <h1 className='text-[47px] text-white text-center font-semibold mt-6.5 mb-14.75'>MY Background and <span className='block'>Achievements</span></h1>
+          <h1 className='text-[47px] uppercase text-white text-center font-semibold mt-6.5 mb-14.75'>MY Background and <span className='block'>Achievements</span></h1>
         </div>
         <div className='flex justify-center'>
           <div className='bg-secondary py-6 px-7.5 text-[15px] font-bold  rounded-full  inline '>

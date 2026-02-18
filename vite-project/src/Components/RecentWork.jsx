@@ -12,7 +12,7 @@ const RecentWork = () => {
           <div>
             <Container>
                 <h4>My Recent Work</h4>
-                <h1 className='text-[45px]  text-white font-semibold'>Recent work for <span className='block'> MY clients!</span></h1>
+                <h1 className='text-[45px] uppercase text-white font-semibold'>Recent work for <span className='block'> MY clients!</span></h1>
             </Container>
 
                 <div className='flex gap-7.5 mt-15 mb-[181.89px]'>
