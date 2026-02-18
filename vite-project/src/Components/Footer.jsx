@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/NavLogo.png'
+import logo from '../assets/navLogo.png'
 import Container from './Container'
 import { MdOutlineArrowOutward } from "react-icons/md";
 
