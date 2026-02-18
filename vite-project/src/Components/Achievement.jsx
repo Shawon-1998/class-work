@@ -3,7 +3,7 @@ import Container from './Container'
 import img1 from '../assets/h4-work-1.png.png'
 import img2 from '../assets/h4-work-2.png.png'
 import img3 from '../assets/h4-work-3.png.png'
-import icon from '../assets/icon.png'
+import icon from '../assets/Icon.png'
 
 const Achievement = () => {
   return (
