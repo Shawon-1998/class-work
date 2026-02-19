@@ -11,8 +11,8 @@ import Button from './Button';
 const Nav = () => {
   return (
     <>
-      <nav className='bg-primary py-5.65 '>    
-        <div className=' flex justify-between  px-16.25 items-center '>
+      <nav className='bg-primary  '>    
+        <div className=' flex justify-between px-16.25 items-center '>
        <img src={logo} alt="" />
           <ul className='flex gap-8.5 text-white '>
                     <li>Services</li>
@@ -22,13 +22,12 @@ const Nav = () => {
                     <li>Testimonials</li>
                     <li>Contact</li>
                  </ul>
-                  <div className='text-white flex gap-3 items-center'>
+                  <div className='text-white flex gap-3 my-3 items-center'>
                     <FaFacebookF />
                     <FaLinkedinIn />
                     <FaGithub />
                     <SiTorbrowser />
                     <Button >Lets talk</Button>
-               
                  </div>
         </div>
       </nav>
