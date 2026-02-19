@@ -2,6 +2,10 @@ import React from 'react'
 import logo from '../assets/navLogo.png'
 import Container from './Container'
 import { MdOutlineArrowOutward } from "react-icons/md";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { SiTorbrowser } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -16,8 +20,13 @@ const Footer = () => {
         <a href="#" className="">
         <img src={logo} className='h-7 ' alt=""  />
         <p className=' mt-4 mb-7.5 w-85'>I break down complex user the experience problems the create integrity focused to solutions that’s connect.</p>
-      
         </a>
+         <div className='flex gap-2'>
+           <FaFacebookF />
+                    <FaLinkedinIn />
+                    <FaGithub />
+                    <SiTorbrowser />
+         </div>
       </div>
     <ul className='leading-10 text-paragraph'>
         <h2 className='text-heading text-lg font-semibold'>Legal Details</h2>
@@ -25,7 +34,7 @@ const Footer = () => {
         <li>Features</li>
         <li>Documentation</li>
         <li>Referral Program</li>
-     
+        
       </ul>
       <ul className='leading-10 text-paragraph'>
        <h2  className='text-heading text-lg font-semibold'>Contact</h2>
@@ -39,7 +48,7 @@ const Footer = () => {
 <form className="flex items-center max-w-sm mx-auto bg-white rounded-full  ">   
   <label htmlFor="simple-search" className="sr-only">Search</label>
   <div className=" ">
-    <input type="text" id="simple-search" className="px-5 py-3 bg-neutral-secondary-medium  rounded-base ps-9 text-heading text-sm focus:ring-brand focus:border-brand block w-full placeholder:text-body" placeholder="Search branch name..." required />
+    <input type="text" id="simple-search" className="px-5 py-3 rounded-base ps-9  text-sm outline-none block w-full placeholder:text-body" placeholder="Search branch name..." required />
   </div>
 </form>
        <button className='p-3.5 cursor-pointer bg-primary rounded-full'>

@@ -27,9 +27,8 @@ const Nav = () => {
                     <FaLinkedinIn />
                     <FaGithub />
                     <SiTorbrowser />
-                <div className=''> 
                     <Button >Lets talk</Button>
-                </div>
+               
                  </div>
         </div>
       </nav>
