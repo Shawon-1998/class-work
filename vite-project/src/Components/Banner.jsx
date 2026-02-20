@@ -8,7 +8,7 @@ import Container from './Container'
 const Banner = () => {
     return (
         <>
-                <section>
+                <section className='banner'>
                     <div className='flex items-center gap-5 justify-center font-semibold mt-18'>
                         <h1>HELLO</h1>
                         <img src={logo} className='' alt="" />
